@@ -1,0 +1,98 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6084 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Education\개발\기영이형VR\유니티\유니티\1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 120Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 192.355362 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 42ac -> priority: 1 
+  Thread -> id: 18f8 -> priority: 1 
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+The referenced script on this Behaviour (Game Object 'Scene Camera') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+A tree couldn't be loaded because the prefab is missing.
+ 
+(Filename:  Line: 289)
+
+The tree Water4Advanced couldn't be instanced because the prefab contains no valid mesh renderer.
+ 
+(Filename:  Line: 160)
+
+UnloadTime: 0.234484 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Player_Respawn.SetRespawnButton () [0x00000] in <filename unknown>:0 
+  at Player_Respawn.OnStartLocalPlayer () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.SetLocalPlayer (Int16 localPlayerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.SetupLocalPlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.Networking.NetworkIdentity uv, UnityEngine.Networking.PlayerController newPlayerController) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.InternalReplacePlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject playerGameObject, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.ReplacePlayerForConnection (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject player, Int16 playerControllerId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkLobbyManager.SceneLoadedForPlayer (UnityEngine.Networking.NetworkConnection conn, UnityEngine.GameObject lobbyPlayerGameObject) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkLobbyManager.OnServerSceneLoadedMessage (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.InvokeHandler (Int16 msgType, UnityEngine.Networking.NetworkReader reader, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkServer.InvokeHandlerOnServer (UnityEngine.Networking.ULocalConnectionToServer conn, Int16 msgType, UnityEngine.Networking.MessageBase msg, Int32 channelId) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ULocalConnectionToServer.Send (Int16 msgType, UnityEngine.Networking.MessageBase msg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.Send (Int16 msgType, UnityEngine.Networking.MessageBase msg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkLobbyPlayer.SendSceneLoadedMessage () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkLobbyPlayer.OnSceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 3.844744 ms (FindLiveObjects: 0.140763 ms CreateObjectMapping: 0.074028 ms MarkObjects: 1.780332 ms  DeleteObjects: 1.848161 ms)
+
+MatchMakingClient Destroy :https://mm.unet.unity3d.com/json/reply/DestroyMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MatchMakingClient DropConnection :https://mm.unet.unity3d.com/json/reply/DropConnectionRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.720755 ms
+
+Unloading 324 unused Assets to reduce memory usage. Loaded Objects now: 1351.
+Total: 10.442039 ms (FindLiveObjects: 0.134199 ms CreateObjectMapping: 0.101743 ms MarkObjects: 2.003511 ms  DeleteObjects: 8.200394 ms)
+
